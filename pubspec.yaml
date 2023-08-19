@@ -1,0 +1,53 @@
+name: elearning
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.3
+  dio: ^4.0.6
+  dio_logger: ^4.0.8
+  firebase_auth: ^4.7.3
+  firebase_core: ^2.15.1
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  form_builder_validators: ^9.0.0
+  get: ^4.6.5
+  google_sign_in: ^6.1.4
+  http: ^1.1.0
+  image_picker: ^1.0.2
+  timeago: ^3.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+  
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/open-sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/open-sans/OpenSans-Italic.ttf
+        - asset: assets/fonts/open-sans/OpenSans-Bold.ttf
+          weight: 700
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/caveat/Caveat-Regular.ttf
+        - asset: assets/fonts/caveat/Caveat-Medium.ttf
+        - asset: assets/fonts/caveat/Caveat-SemiBold.ttf
+          weight: 400
+        - asset: assets/fonts/caveat/Caveat-Bold.ttf
+          weight: 700

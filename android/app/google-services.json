@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "115128119759",
+    "project_id": "edspert-elearning-853f9",
+    "storage_bucket": "edspert-elearning-853f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115128119759:android:dccf2206fb69c1a4a122ba",
+        "android_client_info": {
+          "package_name": "com.example.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115128119759-meaircqc672d4vv4f7kl1qutpmbg6kf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearning",
+            "certificate_hash": "ba6b58ec6ac9db6ce53bf7b3e481b7e8b0fdf608"
+          }
+        },
+        {
+          "client_id": "115128119759-nm5kuhnmsd3s1iogekfpgj41751unb7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMkDnR_COHkR0Ko4FKVOHDTNwkNvfQePs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115128119759-nm5kuhnmsd3s1iogekfpgj41751unb7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
